@@ -1,6 +1,4 @@
 
-
-
 import { Gamepad, Shirt } from 'lucide-react'
 import React from 'react'
 import { FaShoePrints } from 'react-icons/fa'; // Make sure the import path is correct

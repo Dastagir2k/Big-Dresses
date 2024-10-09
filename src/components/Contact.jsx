@@ -51,7 +51,7 @@ const Contact = () => {
           <div className="space-y-4">
             <div className="flex items-center">
               <MapPin className="w-6 h-6 text-red-600 mr-3" />
-              <p>123 Kids Fashion Street, Toytown, TT 12345</p>
+              <p>81 G.A road old Washermenpet , Chennai - 21</p>
             </div>
             <div className="flex items-center">
               <Phone className="w-6 h-6 text-red-600 mr-3" />
