@@ -8,6 +8,7 @@ import Achivements from './components/Achivements'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import HeroPage from './components/HeroPage'
+import { Analytics } from '@vercel/analytics/react'
 
 
 const App = () => {
@@ -21,6 +22,7 @@ const App = () => {
       <Achivements/>
       <Contact/>
       <Footer/>
+      <Analytics/>
     </div>
   )
 }
