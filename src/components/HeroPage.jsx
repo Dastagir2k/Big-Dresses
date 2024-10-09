@@ -2,7 +2,7 @@
 
 import React from 'react';
 
-const Hero = () => {
+const HeroPage = () => {
   return (
     <section id="home" className="container mx-auto px-8 py-16 flex flex-col md:flex-row items-center">
       <div className="md:w-1/2 pr-4 md:pr-6">
@@ -25,4 +25,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default HeroPage;
