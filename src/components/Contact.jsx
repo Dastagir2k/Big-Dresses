@@ -64,7 +64,7 @@ const Contact = () => {
           </div>
           <div className="mt-8">
             <a 
-              href="https://www.google.com/maps/place/123+Kids+Fashion+Street,+Toytown,+TT+12345" 
+              href="https://maps.app.goo.gl/6ftY7zQgQYt8rozS9" 
               target="_blank" 
               rel="noopener noreferrer"
             >
