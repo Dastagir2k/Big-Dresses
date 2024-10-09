@@ -7,7 +7,6 @@ import Feedbacks from './components/Feedbacks'
 import Achivements from './components/Achivements'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
-import Hero from './components/hero'
 import HeroPage from './components/HeroPage'
 
 

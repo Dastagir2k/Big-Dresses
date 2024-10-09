@@ -12,7 +12,7 @@ const Navbar = () => {
          {/* Navigation */}
          <nav className="bg-white shadow-md relative z-20">
         <div className="container mx-auto px-6 py-3 flex justify-between items-center">
-          <a className="text-3xl font-bold text-red-600" href="#">Big Dresses</a>
+          <img className="w-16 h-16 font-bold text-red-600" src={logo} />
           <div className="hidden md:flex space-x-4">
             <a className="text-gray-600 hover:text-red-600" href="#home">Home</a>
             <a className="text-gray-600 hover:text-red-600" href="#about">About</a>
