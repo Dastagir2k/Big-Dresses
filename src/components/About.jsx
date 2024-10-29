@@ -1,6 +1,11 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 
 const About = () => {
+  const navigate=useNavigate();
+  const navToStory=()=>{
+    navigate("/story")
+  }
   return (
     <section id="about" className="bg-gray-50 py-16">
         <div className="container mx-auto px-6 flex flex-col md:flex-row items-center">
@@ -20,7 +25,7 @@ const About = () => {
               <li>Safe and educational toy selection</li>
               <li>Loyalty program for regular customers</li>
             </ul>
-            
+            <button onClick={navToStory} className='bg-red-500 mt-2 px-2 py-2 text-white'>Learn About Our Journey</button>
           </div>
         </div>
       </section>
