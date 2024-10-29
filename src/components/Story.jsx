@@ -5,7 +5,7 @@ const Story = () => {
   return (
     <div className="min-h-screen bg-white">
     <div className="container mx-auto px-6 py-16">
-      <h1 className="text-4xl md:text-5xl font-bold mb-8 text-red-600 text-center">Our Story</h1>
+      <h1 className="text-4xl md:text-5xl font-bold mb-8 text-red-600 text-center">Our Journey</h1>
       
       <div className="mb-16">
         <h2 className="text-3xl font-bold mb-4 text-red-500">The Big Dresses Journey</h2>
