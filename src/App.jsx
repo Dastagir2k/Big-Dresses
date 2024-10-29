@@ -9,13 +9,14 @@ import Contact from './components/Contact'
 import Footer from './components/Footer'
 import HeroPage from './components/HeroPage'
 import { Analytics } from '@vercel/analytics/react'
+import Hero from './components/hero'
 
 
 const App = () => {
   return (
     <div>
       <Navbar/>
-      <HeroPage/>
+      <Hero/>
       <About/>
       <Services/>
       <Feedbacks/>

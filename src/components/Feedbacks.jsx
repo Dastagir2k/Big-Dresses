@@ -5,7 +5,7 @@ import React from 'react'
 
 const Feedbacks = () => {
     const reviews = [
-        { id: 1, name: 'Dastagir Ahmed.', rating: 5, text: 'Great selection of kids clothing and toys. My children love everything we buy here!' },
+        { id: 1, name: 'Devaraj.', rating: 5, text: 'Great selection of kids clothing and toys. My children love everything we buy here!' },
         { id: 2, name: 'Balaji.', rating: 4, text: 'Excellent customer service and high-quality shoes for kids. Will shop here again.' },
         { id: 3, name: 'Akbar.', rating: 5, text: 'Found adorable outfits for both my son and daughter. Highly recommend!' },
       ]
