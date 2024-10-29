@@ -7,6 +7,7 @@ import { Analytics } from '@vercel/analytics/react'
 
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Story from './components/Story'
+import Homepage from './components/Homepage'
 
 
 const App = () => {
@@ -14,7 +15,7 @@ const App = () => {
     <div>
      <BrowserRouter>
      <Routes>
-      <Route path='/' element={<HeroPage/>}/>
+      <Route path='/' element={<Homepage/>}/>
       <Route path='/story' element={<Story/>}/>
      </Routes>
       {/* <Analytics/> */}
