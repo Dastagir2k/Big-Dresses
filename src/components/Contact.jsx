@@ -8,7 +8,11 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault()
+
     console.log('Form submitted:', { name, email, message })
+    setName("");
+    setEmail("");
+    setMessage("")
   }
 
   return (

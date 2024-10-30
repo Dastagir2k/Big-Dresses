@@ -1,11 +1,16 @@
 import React from 'react'
 import pic from "./dad.png";
 import akbar from "./Anna.png"
+import { useNavigate } from 'react-router-dom';
 const Story = () => {
+  const navigate=useNavigate()
+  const navtoHome=()=>{
+    navigate("/")
+  }
   return (
     <div className="min-h-screen bg-white">
     <div className="container mx-auto px-6 py-16">
-      <h1 className="text-4xl md:text-5xl font-bold mb-8 text-red-600 text-center">Our Journey</h1>
+      <h1 className="text-4xl md:text-5xl font-bold mb-8 text-red-600 text-center ">Our Journey</h1>
       
       <div className="mb-16">
         <h2 className="text-3xl font-bold mb-4 text-red-500">The Big Dresses Journey</h2>
@@ -16,7 +21,7 @@ const Story = () => {
           Over the years, the company has grown thanks to the dedication and hard work of Shahul Hameed, who now serves as the CEO, and Hajul Akbar, the young and talented Co-CEO. Together, they have made Big Dresses a beloved choice for families, known for quality and affordability.
         </p>
         <p className="text-gray-600 mb-4">
-          Today, Big Dresses is proud to serve families across the country, both through our expanded physical stores and our online platform. Our mission remains the same: to dress and entertain children while bringing joy to families everywhere.
+          Today, Big Dresses is proud to serve families across the chennai, both through our expanded physical stores and our online platform. Our mission remains the same: to dress and entertain children while bringing joy to families everywhere.
         </p>
       </div>
 
@@ -44,7 +49,9 @@ const Story = () => {
         <p className="text-gray-600 mb-6">
           As we continue to grow and evolve, we invite you to be a part of our story. Every purchase, every visit, and every smile contributes to the Big Dresses tale.
         </p>
-        <button className="bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-6 rounded-full text-lg">
+        <button 
+        onClick={navtoHome}
+        className="bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-6 rounded-full text-lg">
          Visit Us
         </button>
       </div>

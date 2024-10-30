@@ -4,8 +4,8 @@ import React from 'react'
 const Achivements = () => {
 
     const accomplishments = [
-        { icon: Users, value: '50k+', label: 'Happy Families' },
-        { icon: Calendar, value: '15+', label: 'Years of Joy' },
+        { icon: Users, value: '100k+', label: 'Happy Families' },
+        { icon: Calendar, value: '30+', label: 'Years of Joy' },
         { icon: ShoppingBag, value: '1M+', label: 'Items Sold Annually' },
       ]
   return (
